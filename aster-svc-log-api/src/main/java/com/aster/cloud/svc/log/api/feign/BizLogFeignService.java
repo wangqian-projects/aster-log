@@ -1,9 +1,9 @@
 package com.aster.cloud.svc.log.api.feign;
 
 
+import com.aster.cloud.commons.core.api.R;
 import com.aster.cloud.svc.log.api.constant.LogConstant;
 import com.aster.cloud.svc.log.api.entity.BizLog;
-import com.baomidou.mybatisplus.extension.api.R;
 import io.swagger.annotations.Api;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.stereotype.Component;
