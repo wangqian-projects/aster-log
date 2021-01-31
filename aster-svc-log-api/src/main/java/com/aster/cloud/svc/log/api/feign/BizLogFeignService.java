@@ -1,7 +1,7 @@
 package com.aster.cloud.svc.log.api.feign;
 
 
-import com.aster.cloud.commons.core.api.R;
+import com.aster.cloud.commons.core.api.Result;
 import com.aster.cloud.svc.log.api.constant.LogConstant;
 import com.aster.cloud.svc.log.api.entity.BizLog;
 import io.swagger.annotations.Api;
@@ -25,5 +25,5 @@ public interface BizLogFeignService {
      * @return succes、false
      */
     @PostMapping("/biz/save")
-    R<Boolean> saveLog(@RequestBody BizLog bizLog);
+    Result<Boolean> saveLog(@RequestBody BizLog bizLog);
 }
